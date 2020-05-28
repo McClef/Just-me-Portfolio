@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background: #f6f6f6;
+}
+header h1{
+    font-size: 50px;
+}
+header p{
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+}
+header img{
+    display: block;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.name{
+    padding: 50px;
+    line-height: 25px;   
+}
+.name > h2{
+    border-bottom: 1px solid black;
+    padding-bottom:20px;
+    width: 200px;
+}
+.prog{
+    width: 100%;
+    background: white;
+    height: 30px;
+}
+.sub-prog1{
+    width: 95%;
+    background: grey;
+    height: 30px;
+}
+.sub-prog2{
+    width: 85%;
+    background: grey;
+    height: 30px;
+}
+.sub-prog3{
+    width: 75%;
+    background: grey;
+    height: 30px;
+}
+.sub-prog4{
+    width: 65%;
+    background: grey;
+    height: 30px;
+}
+.sub-prog5{
+    width: 25%;
+    background: grey;
+    height: 30px;
+}
+button{
+    margin: 50px;
+    text-align: center;
+    padding:  10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    
+}
+.container{
+    margin: 50px;
+}
+.grid-it{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    background-color: #aaa;
+    padding: 50px;
+    justify-content: center;
+
+}
+.left, .right{
+    background: #eee;
+    width: 400px;
+    text-align: center; 
+}
+ul{
+    list-style-type: none;
+    
+}
+ul, li{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.head{
+    background: #bbb;
+    color: white;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+}
+input[type=text], [type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .info{
+      font-size: 25px;
+      padding: 5px;
+  }
+
